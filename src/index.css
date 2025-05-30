@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+* {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.9s;
+  /* border: 1px solid red; */
+}
+
+:root {
+  background-color: #222222;
+  --font-poppins: "Poppins", sans-serif;
+  --font-montsserat: "Montserrat", sans-serif;
+}
+
+nav {
+  h1 {
+    font-family: var(--font-montsserat);
+  }
+}
+
+button {
+  font-family: var(--font-montsserat);
+}
+
+footer {
+  font-family: var(--font-poppins);
+}
+
+#weather {
+  .flex {
+    p {
+      font-family: var(--font-montsserat);
+    }
+  }
+
+  #location {
+    h3 {
+      font-family: var(--font-montsserat);
+    }
+
+    p {
+      font-family: var(--font-poppins);
+    }
+  }
+
+  #btn {
+    font-family: var(--font-poppins);
+  }
+}
