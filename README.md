@@ -1,38 +1,38 @@
-# App Cuaca
+# Weather App
 
-Web aplikasi yang dapat menampilkan data cuaca dengan mengimput data cuaca sesuai tempat tersebut dengan menggunakan api dari [WeatherAPI](https://www.weatherapi.com/).
+Web application that can display weather data by inputting weather data according to the location using API from [WeatherAPI](https://www.weatherapi.com/).
 
-#### Project akan terus di update, karena gak ada kerjaan juga sih :D
+#### The project will continue to be updated, because there is no work anyway :D
 
-## instalasi
+## installation
 
-Untuk mendeploy web nya
+To deploy the web
 
-### Install Module Dahulu
+### Install Module First
 
 ```bash
 npm i
 ```
 
-Untuk meng install semua module yang dibutuhkan oleh project tersebut
+To install all the modules required by the project
 
-## Masukan apikey ke environment
+## Enter apikey into environment
 
 ```bash
-VITE_KEY="" <-- Masukan apikey yang kalian dapatkan di [https://www.weatherapi.com/]
+VITE_KEY="" <-- Enter the apikey you got in [https://www.weatherapi.com/]
 ```
-Ganti file .env.example ke .env
+Replace the .env.example file to .env
 
-### Jalankan Web nya
+### Run the Web
 
 ```bash
 npm run dev
 ```
 
-Ini gunanya untuk kita dapat melihat hasil dari web yang telah kita kerjakan, npm run dev sendiri digunakan untuk saat sesi developing agar mudah saat merubah/memodifikasi project
+This is useful for us to be able to see the results of the web that we have worked on, npm run dev itself is used during development sessions to make it easier to change/modify the project.
 
-## Lisensi
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-# Sekian :p
+# That's all :p
